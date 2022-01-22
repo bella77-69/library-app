@@ -1,7 +1,30 @@
-.App {
-  text-align: center;
+* { 
+  background-color: rgb(212, 211, 211);
 }
 
+
+.header .container {
+  display: flex;
+  margin: 1rem;
+  justify-content: center;
+}
+.input-group-text {
+  background-color: #212529;
+  color: #fff;
+  font-weight: bold;
+}
+.edit,
+.delete {
+  padding: 0px 6px;
+  border-radius: 2px;
+}
+
+.edit {
+  margin-right: 10px;
+}
+table {
+  text-align: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -28,11 +51,4 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
